@@ -4,19 +4,15 @@ body {
 }
 .container {
     width: 1280px;
+    margin: 0 auto;
     border: 1px solid black;
 }
-.container {
-    content: "";
-    display: block;
-    width: 100%;
-    clear: both;
-}
+
 .main-header {
     width: 100%;
     min-height: 323px;
     padding: 50px; /*внутренние отсутпы*/
-    box-sizing: border-box; /*рамки и падинги не учитывать в блочной мадели, чтобы падинг не увеличивал размер*/
+    box-sizing: border-box; /*рамки и падинги не учитывать в блочной модели, чтобы падинг не увеличивал размер*/
     background-color: #445161;
 }
 .main-header-wrapper{
@@ -51,7 +47,7 @@ body {
     top: 5px;
     left: -37px;
     background-image: url('img/check_icon.png');
-    -webkit-background-size: contain; /*Это чтобы рисунок подогнался по размеру*/
+    -webkit-background-size: contain; /* чтобы рисунок подогнался по размеру*/
     background-repeat: no-repeat;
     background-position: center;
     
@@ -99,7 +95,7 @@ body {
     background-color:  #f5f5f5;
     width: 100%;
     min-height: 391px;
-    padding: 50px; /*внутренние отсутпы*/
+    padding: 50px; 
     box-sizing: border-box; 
 }
 .section-dignity-product-title {
@@ -140,7 +136,7 @@ body {
     top: 5px;
     left: -41px;
     background-image: url('img/plus_icon.png');
-    -webkit-background-size: contain; /*Это чтобы рисунок подогнался по размеру*/
+    -webkit-background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
     
