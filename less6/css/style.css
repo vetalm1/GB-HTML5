@@ -76,14 +76,14 @@ body {
     box-sizing: border-box;
     padding: 0 15px 0 0;
 }
- .main-header-nav ul li a {
+.main-header-nav ul li a {
   display: block;
   width: 100%;
   height: 100%;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 14px;
 }
 .main-header-nav ul li a:hover {
@@ -130,10 +130,10 @@ body {
   background-position: right;
   background-color: #c7b299;
 }
+
 .main-header-slider {
     position: relative;
 }
-
 .main-header-slider-main {
     margin: 0 0 51px; 0;
 }
@@ -205,7 +205,6 @@ body {
 .main-header-slider-rightButton:active {
     transform: scale(0.6);
 }
-
 .main-header-slider-main-btn {
     margin: 0 auto;
     display: flex;
@@ -217,20 +216,16 @@ body {
     text-transform: uppercase;
     border-bottom: 1px solid #736356;
 }
-
 .main-header-slider-main-btn:hover {
   background-color:  #736356;
   border-bottom: 1px solid #998675;
 }
-
 .main-header-slider-main-btn:hover .main-header-slider-main-btn-txt {
   color:  #ccc;
 }
-
 .main-header-slider-main-btn:active .main-header-slider-main-btn-txt {
   color:  #fff;
 }
-
 .main-header-slider-main-btn-txt {
     margin: 0 auto;
     box-sizing: border-box;
@@ -240,7 +235,9 @@ body {
     font-size: 14px;
     font-weight: 800;
     line-height: 23px;
+    text-align: center;
 }
+
 .main-header-switcher {
     box-sizing: border-box;
     margin: 300px 0 0 0 ;
@@ -261,6 +258,7 @@ body {
     border: 2px solid #d3c1ad;
 }
 
+/*---------------------------*/
 .section-ideas{
     background-color: white;
     margin: 81px 0 0 0;
@@ -338,9 +336,6 @@ body {
     font-weight: 300;
     padding: 0 0 40px 0;
 }
-.section-ideas-realization-content {
-    margin: 0 auto;
-}
 .section-ideas-realization-content-imgs {
     height: 482px;
     width: 100%;
@@ -350,6 +345,7 @@ body {
                 url("../img/browser-right.png") 805px 140px no-repeat;            
 }
 
+/*---------------------------*/
 .aside-theme {
     display: flex;
     flex-wrap: wrap;
@@ -402,6 +398,7 @@ body {
     font-weight: 600;
     line-height: 23px;
     text-transform: uppercase;
+    text-align: center;
 }
 .aside-theme-btn:hover {
     background-color:  #736356;
@@ -413,6 +410,8 @@ body {
 .aside-theme-btn:active .aside-theme-btn-txt {
     color:  #fff;
 }
+
+/*-------------------------*/
 .section-LatestProjects {}
 .section-LatestProjects-header {
     display: block;
@@ -589,6 +588,7 @@ body {
     font-size: 14px;
     font-weight: 800;
     line-height: 23px;
+    text-align: center;
 }
 .section-LatestProjects-btn-LoadMore:hover {
   background-color:  #736356;
@@ -680,4 +680,51 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/*------------------------*/
+.section-mobile {
+    margin: 80px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-mobile-img {}
+.section-mobile-txtblkwraper{}
+.section-mobile-txtblkwraper-header {
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-mobile-txtblkwraper-txt {
+    width: 675px;
+    color: #8c8c8c;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.section-mobile-txtblkwraper-list li {
+    margin: 0 0 0 45px;
+    color: #8c8c8c;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    list-style-type: none;
+    position: relative;
+}
+.section-mobile-txtblkwraper-list li:before {
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 5px;
+    left: -30px;
+    background-image: url('../img/logo-list.png');
+    -webkit-background-size: contain; /* чтобы рисунок подогнался по размеру*/
+    background-repeat: no-repeat;
+    background-position: center;
 }
